@@ -22,6 +22,6 @@ Two ways to featurize Categorical Data : 1) One hot encoding 2) Responce Encodin
 For text feature : Instread of Word2Vec we use Countvectorizer(BOW)
 
 Moodels:
- Tried different models among them 
+ Tried different models among them following works best.
  1) Logistic Regression with onne hot encoding + balancing
  2) Voting (Logistic regression, SVM, RF) (but intrepretability is lost in this)
